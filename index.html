@@ -5,7 +5,6 @@
     <title> Package Update Notification </title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="mystyles.css">
-    <meta name="robots" content="noindex, no follow, noarchive" />
     <meta name="author" content="Nic Ott, Jason Paek, Erik Smith, Haris Yosufi" />
 </head>
 
@@ -15,21 +14,23 @@
 
             <!-- official KSU colors gold #FFC425 and black #231F20 -->
 
-            <p align="center"> <br>
-                <img src="images/ksu-logo2.png" alt="KSU" width="473">
-            <h1>Package Update Notification
-            </h1>
+            <br>
+            <br>
+            <div style="text-align: center;"><img src="images/logo.png" alt="404" style="width: 15%; border: .4vw solid black; border-radius: 10%;"></div>
+            <h1>Package Update Notifier</h1>
         </header>
         <nav>
 
             <ul>
-                <li><a href="index.html">Home</a></li><br>
-                <li><a href="abstract.html">Abstract</a></li><br>
-                <li><a href="projectplan.html">Project Plan</a></li><br>
-                <li><a href="srs.html">SRS</a></li><br>
-                <li><a href="demo.html">Demo Video</a></li><br>
-                <li><a href="report.html">Project Report</a></li><br>
-                <li><a>Application Link</a></li><br>
+                <li><a href="index.html">Abstract</a></li><br>
+                <!-- <li><a href="abstract.html">Abstract</a></li><br> -->
+                <li><a href="data/INDY2-PackageUpdateNotification-ProjectPlan.pdf" target="_blank">Project Plan</a></li><br>
+                <li><a href="data/INDY2-SRS.pdf" target="_blank">SRS</a></li><br>
+                <li><a href="data/INDY2-Final_report.pdf" target="_blank">Final Report</a></li><br>
+                <li><a href="https://github.com/FraudBatman/PackUpNtFront" target="_blank">Frontend GitHub</a></li><br>
+                <li><a href="https://github.com/FraudBatman/PackUpNtBack" target="_blank">Backend GitHub</a></li><br>
+                <li><a>Demo Video (To be added)</a></li><br>
+                <li><a>Application Link (To be added)</a></li><br>
             </ul>
 
         </nav>
@@ -37,29 +38,60 @@
 
 
         <main>
-            <h2>About Us</h2>
+            <h2>Abstract</h2>
+            <p>
+                Our application sends emails to users notifying them of outdated packages in their programming projects.
+
+                The frontend is a website developed using Bootstrap and SvelteKit, while the backend is written in C# and interfaces with a SupaBase database.
+
+                The application integrates with the user's GitHub account and compares package versions between the user's GitHub repository
+                and the package's source repository.
+
+                Additionally, it can be configured to exclude specific packages and send less frequent email reminders.
+
+                Implementing this helpful tool will allow developers to fix any runtime error caused by outdated packages and manage their code's packages with ease.
+            </p>
             <br>
-            <img src="images/mugshots.png" alt="OOPS"><br>
             <br>
             <br>
+            <h2>Team Members</h2>
             <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
+            <table>
+                <tr>
+                    <td><img src="images/nic.png" alt="404"></td>
+                    <td><img src="images/jason.png" alt="404"></td>
+                    <td><img src="images/erik.png" alt="404"></td>
+                    <td><img src="images/haris.png" alt="404"></td>
+                </tr>
+                <tr>
+                  <th>Nicholas Ott</th>
+                  <th>Jason Paek</th>
+                  <th>Erik Smith</th>
+                  <th>Haris Yosufi</th>
+                </tr>
+                <tr>
+                  <td style="text-align: center;">GitHub</td>
+                  <td style="text-align: center;">GitHub</td>
+                  <td style="text-align: center;">GitHub</td>
+                  <td style="text-align: center;">GitHub</td>
+                </tr>
+                <tr>
+                  <td style="text-align: center;">LinkedIn</td>
+                  <td style="text-align: center;">LinkedIn</td>
+                  <td style="text-align: center;">LinkedIn</td>
+                  <td style="text-align: center;">LinkedIn</td>
+                </tr>
+              </table>
             <br>
             <br>
         </main>
 
 
 
-        <footer>Copyright &copy; 202X Kennesaw State University
+        <!-- <footer>Copyright &copy; 202X Kennesaw State University
             <br>
             <br>
-        </footer>
+        </footer> -->
     </div>
 </body>
 

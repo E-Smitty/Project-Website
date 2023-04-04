@@ -100,11 +100,11 @@ main {
     padding-bottom: 1px;
 }
 
-main img {
+/* main img {
     float: left;
     padding-right: 20px;
     padding-bottom: 20px;
-}
+} */
 
 main ul {
     list-style-position: inside;
