@@ -2,97 +2,95 @@
 <html lang="en">
 
 <head>
-    <title> Package Update Notification </title>
+    <title> Package Update Notifier </title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="mystyles.css">
     <meta name="author" content="Nic Ott, Jason Paek, Erik Smith, Haris Yosufi" />
 </head>
 
 <body>
-    <div id="wrapper">
-        <header>
+    <header>
+        <img src="images/logo.png" alt="404"
+        style="display: block; margin: auto; width: 7.5%; border: .4vw solid black; border-radius: 10%;">
+        <h1>Package Update Notifier</h1>
+    </header>
 
-            <!-- official KSU colors gold #FFC425 and black #231F20 -->
+    <nav>
+        <ul>
+            <!-- <li><a href="index.html">Abstract</a></li> -->
+            <li><a href="data/INDY2-PackageUpdateNotification-ProjectPlan.pdf" target="_blank">Project Plan</a></li>
+            <li><a href="data/INDY2-SRS.pdf" target="_blank">SRS</a></li>
+            <li><a href="data/INDY2-Final_report.pdf" target="_blank">Final Report (Rough Draft)</a></li>
+            <li><a href="https://github.com/FraudBatman/PackUpNtFront" target="_blank">Frontend GitHub</a></li>
+            <li><a href="https://github.com/FraudBatman/PackUpNtBack" target="_blank">Backend GitHub</a></li>
+            <li><a>Demo Video (Coming Soon)</a></li>
+            <li><a>Application Link (Coming Soon)</a></li>
+        </ul>
+    </nav>
 
-            <br>
-            <br>
-            <div style="text-align: center;"><img src="images/logo.png" alt="404" style="width: 15%; border: .4vw solid black; border-radius: 10%;"></div>
-            <h1>Package Update Notifier</h1>
-        </header>
-        <nav>
+    <main>
+        <h2>Abstract</h2>
+        <!-- <hr> -->
+        <hr>
+        <p style="font-size: larger; line-height: 150%; color: rgb(200, 200, 200);">
+            Our application sends emails to users notifying them of outdated packages in their programming projects.
 
-            <ul>
-                <li><a href="index.html">Abstract</a></li><br>
-                <!-- <li><a href="abstract.html">Abstract</a></li><br> -->
-                <li><a href="data/INDY2-PackageUpdateNotification-ProjectPlan.pdf" target="_blank">Project Plan</a></li><br>
-                <li><a href="data/INDY2-SRS.pdf" target="_blank">SRS</a></li><br>
-                <li><a href="data/INDY2-Final_report.pdf" target="_blank">Final Report</a></li><br>
-                <li><a href="https://github.com/FraudBatman/PackUpNtFront" target="_blank">Frontend GitHub</a></li><br>
-                <li><a href="https://github.com/FraudBatman/PackUpNtBack" target="_blank">Backend GitHub</a></li><br>
-                <li><a>Demo Video (To be added)</a></li><br>
-                <li><a>Application Link (To be added)</a></li><br>
-            </ul>
+            The frontend is a website developed using Bootstrap and SvelteKit, while the backend is written in C# and
+            interfaces with a SupaBase database.
 
-        </nav>
+            The application integrates with the user's GitHub account and compares package versions between the user's
+            GitHub repository
+            and the package's source repository.
 
+            Additionally, it can be configured to exclude specific packages and send less frequent email reminders.
 
+            Implementing this helpful tool will allow developers to fix any runtime error caused by outdated packages
+            and manage their code's packages with ease.
+        </p>
+        
+        <!-- <br> -->
+        <!-- <hr> -->
+        <hr>
+        <br>
+        <br>
+        <br>
+        <!-- <h2>Team Members</h2> -->
+        <br>
 
-        <main>
-            <h2>Abstract</h2>
-            <p>
-                Our application sends emails to users notifying them of outdated packages in their programming projects.
+        <table>
+            <tr>
+                <td><img src="images/nic.png" style="border-radius: 50%;" alt="404"></td>
+                <td><img src="images/jason.png" style="border-radius: 50%;" alt="404"></td>
+                <td><img src="images/erik.png" style="border-radius: 50%;" alt="404"></td>
+                <td><img src="images/haris.png" style="border-radius: 50%;" alt="404"></td>
+            </tr>
+            <tr>
+                <th>Nicholas Ott</th>
+                <th>Jason Paek</th>
+                <th>Erik Smith</th>
+                <th>Haris Yosufi</th>
+            </tr>
+            <tr>
+                <td style="text-align: center;"><a href="https://github.com/FraudBatman" target="_blank">GitHub</a></td>
+                <td style="text-align: center;"><a href="https://github.com/JPaek2000" target="_blank">GitHub</a></td>
+                <td style="text-align: center;"><a href="https://github.com/E-Smitty" target="_blank">GitHub</a></td>
+                <td style="text-align: center;"><a href="https://github.com/trapghani" target="_blank">GitHub</a></td>
+            </tr>
+            <tr>
+                <td style="text-align: center;"><a href="https://www.linkedin.com/in/nicholas-ott-288680233/"
+                        target="_blank">LinkedIn</a></td>
+                <td style="text-align: center;"><a href="https://www.linkedin.com/in/jasonpaek/"
+                        target="_blank">LinkedIn</a></td>
+                <td style="text-align: center;"><a href="https://www.linkedin.com/in/erik-smith-2a9a01208/"
+                        target="_blank">LinkedIn</a></td>
+                <td style="text-align: center;"><a href="https://www.linkedin.com/in/haris-yosufi-900754270/"
+                        target="_blank">LinkedIn</a></td>
+            </tr>
+        </table>
 
-                The frontend is a website developed using Bootstrap and SvelteKit, while the backend is written in C# and interfaces with a SupaBase database.
-
-                The application integrates with the user's GitHub account and compares package versions between the user's GitHub repository
-                and the package's source repository.
-
-                Additionally, it can be configured to exclude specific packages and send less frequent email reminders.
-
-                Implementing this helpful tool will allow developers to fix any runtime error caused by outdated packages and manage their code's packages with ease.
-            </p>
-            <br>
-            <br>
-            <br>
-            <h2>Team Members</h2>
-            <br>
-            <table>
-                <tr>
-                    <td><img src="images/nic.png" alt="404"></td>
-                    <td><img src="images/jason.png" alt="404"></td>
-                    <td><img src="images/erik.png" alt="404"></td>
-                    <td><img src="images/haris.png" alt="404"></td>
-                </tr>
-                <tr>
-                  <th>Nicholas Ott</th>
-                  <th>Jason Paek</th>
-                  <th>Erik Smith</th>
-                  <th>Haris Yosufi</th>
-                </tr>
-                <tr>
-                  <td style="text-align: center;">GitHub</td>
-                  <td style="text-align: center;">GitHub</td>
-                  <td style="text-align: center;">GitHub</td>
-                  <td style="text-align: center;">GitHub</td>
-                </tr>
-                <tr>
-                  <td style="text-align: center;">LinkedIn</td>
-                  <td style="text-align: center;">LinkedIn</td>
-                  <td style="text-align: center;">LinkedIn</td>
-                  <td style="text-align: center;">LinkedIn</td>
-                </tr>
-              </table>
-            <br>
-            <br>
-        </main>
-
-
-
-        <!-- <footer>Copyright &copy; 202X Kennesaw State University
-            <br>
-            <br>
-        </footer> -->
-    </div>
+        <br>
+        <br>
+    </main>
 </body>
 
 </html>
