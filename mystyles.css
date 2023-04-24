@@ -21,12 +21,13 @@ header {
     color: #ffffff;
     font-family: Arial, helvetica;
     margin: 0;
-    padding-top: 20px;
+    /* padding-top: 20px; */
+    /* padding-bottom: 20px; */
 }
 
 h1 {
     /* line-height: 200%; */
-    padding: 20px 0px;
+    /* padding: 20px 0px; */
     text-align: center;
     margin: 0;
     /* background-color: #231F20; */
@@ -104,19 +105,19 @@ main {
     
 }
 
-table {
+main table {
     margin: auto;
     border-spacing: 150px 10px;
     border-collapse: separate;
     /* text-align: center; */
 }
 
-td {
+main td {
     min-width: 160px;
     /* border: 10px solid red; */
 }
 
-td a {
+main td a {
     color: rgb(138, 138, 138);
 }
 
@@ -125,4 +126,16 @@ nav,
 main,
 footer {
     display: block;
+}
+
+
+header table {
+    margin: auto;
+    border-spacing: 30px 10px;
+    border-collapse: separate;
+    /* text-align: center; */
+}
+
+header td {
+    /* border: 10px solid; */
 }
