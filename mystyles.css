@@ -1,23 +1,28 @@
 html, body {
     height: 100%;
     width: 100%;
+    min-width: 900px;
 }
 
 body {
-    background-color: #5c47cc;
+    /* background-color: rgb(45, 72, 194); */
+    background-color: rgba(28, 57, 187, 0.900);
+    
     /* color: #000000; */
     color: rgb(255, 255, 255);
     font-family: Arial, helvetica;
     margin: 0;
     /* padding: 0; */
-    min-width: fit-content;
-    min-height: fit-content;
-    display: flex;
-    flex-direction: column;
+    /* min-width: fit-content; */
+    /* min-height: fit-content; */
+    /* display: flex; */
+    /* flex-direction: column; */
 }
 
 header {
     /* background-color: #231F20; */
+    background-color: #5c47cc;
+
     color: #ffffff;
     font-family: Arial, helvetica;
     margin: 0;
@@ -40,6 +45,7 @@ nav {
     text-align: center;
     background-color: #231F20;
     margin: 0px 0px;
+    /* width: 100%; */
 
     /* border: 10px solid red; */
 }
@@ -64,7 +70,9 @@ nav ul {
     display: inline-block;
     list-style-type: none;
     margin: 0;
+    /* margin: auto; */
     padding: 0;
+    /* width: 100%; */
     /* border: 10px solid red; */
 }
 
@@ -75,7 +83,7 @@ nav li {
 
 }
 
-li a {
+nav li a {
     /* margin: auto; */
     display: block;
     text-align: center;
@@ -89,45 +97,42 @@ h2 {
     font-family: Arial, helvetica;
     text-align: center;
     margin: 0px;
+    padding-bottom: 10px;
 }
 
 main {
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 100px;
+    padding-right: 100px;
     /* background-color: #FFFFFF; */
-    background-color: #2d48c29f;
+    /* background-color: #2d48c29f; */
     text-align: center;
     /* padding: 20px 0px; */
     /* border: 10px solid red; */
-    flex-grow: 1;
+    /* flex-grow: 1; */
     
 }
 
 main table {
     margin: auto;
-    border-spacing: 150px 10px;
-    border-collapse: separate;
+    min-width: 700px;
+    width: 100%;
+    /* padding: 0px; */
+    /* border-spacing: 0px 10px; */
+    /* border-collapse: separate; */
     /* text-align: center; */
-}
-
-main td {
-    min-width: 160px;
     /* border: 10px solid red; */
 }
+
 
 main td a {
     color: rgb(138, 138, 138);
 }
 
-header,
-nav,
-main,
-footer {
-    display: block;
+main td img {
+    width: 140px;
 }
-
 
 header table {
     margin: auto;
@@ -136,6 +141,8 @@ header table {
     /* text-align: center; */
 }
 
-header td {
-    /* border: 10px solid; */
+.spacer {
+    /* border: 1px solid red; */
+    height: 8vh;
+    /* max-height: 5vh; */
 }
